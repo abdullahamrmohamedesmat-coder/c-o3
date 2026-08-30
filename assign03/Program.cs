@@ -70,6 +70,14 @@
             }
             while (x < 3);
             #endregion
+            //7st answer
+            #region 7st question
+            foreach (string item in books02)
+            {
+                Console.WriteLine(item);
+            }
+
+            #endregion
 
         }
     }
