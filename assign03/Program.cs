@@ -94,6 +94,20 @@
             }
             #endregion
 
+            //9st answer
+            #region 9st question
+            string[] book02 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            foreach (string book in books)
+            {
+                if (book == "The pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(book);
+            }
+            #endregion
+
         }
     }
 }
