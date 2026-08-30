@@ -59,6 +59,17 @@
 
             }
             #endregion
+            //6st answer
+            #region 6st question
+            int x = 0;
+            do
+            {
+                string check = pages02 > 300 ? "checking book" : "short book";
+                Console.WriteLine(check);
+                x++;
+            }
+            while (x < 3);
+            #endregion
 
         }
     }
