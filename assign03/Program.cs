@@ -33,6 +33,13 @@
                     break;
             }
             #endregion
+            // 3st answer
+            #region 3st questioin
+            int pages02 = 464;
+
+            string sizeLabel = pages02 > 300 ? "long book" : "short book";
+            Console.WriteLine(sizeLabel);
+            #endregion
         }
     }
 }
