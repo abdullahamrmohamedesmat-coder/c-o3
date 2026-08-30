@@ -16,7 +16,23 @@
                 Console.WriteLine("you can borrow this book");
             }
             #endregion
+            //2st question
+            #region second question
+            string title = "Refactoring";
+            switch (title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
 
+                case "Refactoring":
+                    Console.WriteLine("Nice Peak!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            #endregion
         }
     }
 }
