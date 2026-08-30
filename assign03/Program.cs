@@ -108,6 +108,22 @@
             }
             #endregion
 
+            //10st answer
+            #region 10st question
+            static void PrintFirstBook(string[] books)
+            {
+
+
+
+                if (books == null || books.Length == 0)
+                {
+                    return;
+                }
+                Console.WriteLine(books[0]);
+
+            }
+            #endregion
+
         }
     }
 }
