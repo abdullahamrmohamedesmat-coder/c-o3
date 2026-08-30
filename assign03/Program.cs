@@ -80,6 +80,20 @@
 
             #endregion
 
+            //8st answer
+            #region 8st question
+            for (int y = 0; y < books02.Length; y++)
+            {
+                if (books02[y] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(books02[y]);
+
+
+            }
+            #endregion
+
         }
     }
 }
