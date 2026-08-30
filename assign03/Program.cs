@@ -40,6 +40,14 @@
             string sizeLabel = pages02 > 300 ? "long book" : "short book";
             Console.WriteLine(sizeLabel);
             #endregion
+            //4st answer
+            #region 4st question
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"{i + 1}:{books[i]}");
+            }
+            #endregion
         }
     }
 }
