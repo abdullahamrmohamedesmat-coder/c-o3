@@ -48,6 +48,18 @@
                 Console.WriteLine($"{i + 1}:{books[i]}");
             }
             #endregion
+            //5st answer
+            #region 5st question
+            string[] books02 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int j = 0;
+            while (j < books02.Length)
+            {
+                Console.WriteLine($"{j + 1}: {books02[j]}");
+                j++;
+
+            }
+            #endregion
+
         }
     }
 }
